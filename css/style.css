@@ -748,18 +748,25 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Nav Meu Styling */
-.nav-menu a {
+ .nav-menu a {
   padding: 10px;
   text-decoration: none;
   display: inline-block;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 15px;
   outline: none;
 
+} 
+
+
+@media (max-width: 1100px){
+    .nav-menu a{
+        font-size: 11px;
+    }
 }
+/* Nav Meu Styling */
 
 .nav-menu > li {
   margin-left: 10px;
@@ -814,10 +821,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
   #mobile-nav-toggle {
     display: inline;
   }
+    #nav-menu-container{
+        display: none;
+    }
 }
 
 /* Mobile Nav Styling */
