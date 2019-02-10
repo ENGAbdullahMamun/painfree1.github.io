@@ -758,7 +758,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   outline: none;
 
-} 
+}
 
 
 @media (max-width: 1100px){
@@ -820,14 +820,44 @@ h1, h2, h3, h4, h5, h6 {
 #mobile-nav-toggle i {
   color: #fff;
 }
-
+@media (max-width: 1250px) {
+  #nav-menu-container {
+  float: right;
+  margin-right: -70px;
+}
+}
+@media (max-width: 768px) {
+  #mobile-nav-toggle {
+    display: inline;
+    right: 0%;
+     top: 0%;
+  }
+}
 @media (max-width: 950px) {
   #mobile-nav-toggle {
     display: inline;
+    right: 3%;
+     top: 1%;
   }
+  .cara{
+    height: 50vh;
+  }
+.tee {
+    padding-right: 0px;
+    margin: 50px;
+}
+  .ext {
+    height: 40vh;
+  }
+  .exxt {
+    height: 300px;
+    width: 300px;
+  }
+
     #nav-menu-container{
         display: none;
     }
+
 }
 
 /* Mobile Nav Styling */
