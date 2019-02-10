@@ -832,7 +832,23 @@ h1, h2, h3, h4, h5, h6 {
     right: 0%;
      top: 0%;
   }
+  .rol center{
+    display: flex;
+  }
+  .dbd{
+    padding: 0rem!important;
+  }
+  .spp{
+    padding-left: 0px;
+    margin-top: 25%;
+  }
+  .sppp{
+    padding-left: 0px;
+    margin-top: 20%;
+    display: none;
+  }
 }
+
 @media (max-width: 950px) {
   #mobile-nav-toggle {
     display: inline;
